@@ -10,15 +10,21 @@ Flask works on Nginx with Gunicorn and as systemd service.
 1. Download script on Your machine:
 
 ```
-wget https://github.com/DeviC3/flask-fast-deploy/blob/main/flask-deploy.sh
+wget https://raw.githubusercontent.com/DeviC3/flask-fast-deploy/main/flask-deploy.sh
 ```
-
+download with executing
+```
+wget -O - https://raw.githubusercontent.com/DeviC3/flask-fast-deploy/main/flask-deploy.sh | bash
+```
 or
 
 ```
-curl https://github.com/DeviC3/flask-fast-deploy/blob/main/flask-deploy.sh -o flask-deploy.sh
+curl https://raw.githubusercontent.com/DeviC3/flask-fast-deploy/main/flask-deploy.sh -o flask-deploy.sh
 ```
-
+download with executing
+```
+bash <(curl -s https://raw.githubusercontent.com/DeviC3/flask-fast-deploy/main/flask-deploy.sh)
+``
 2. Customize variables:
 
 - **home_dir** - Your home dir location
